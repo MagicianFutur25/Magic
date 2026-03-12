@@ -1,15 +1,5 @@
 [
   {
-    "userId": "185208",
-    "refreshToken": "eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiVXo2SkVKVnd4L3BCWWFab1lRcE9nZz09OjRGMDBjaU0rRDZFbVcvWHEzc1JCZWZ4cVRwajc1dWQ2V1FPdGpaWDBnNjVxSVFyOThrUndXQ1RhTjJ6R05TVkRZZTltWVJjQWg5YndwN2Vqd3E5blRpcm5OWUgzaFdBL2ZqYkZrMlNrSnpHQXk1ZGdyTWNNeERQTkkxR09SdFF1cWU4STdsWHJWbk00M3hseCtYWWhSUDFGbStINHU0RDFjOStlMnR1M1o1c2NHOFhaWkhJMVR1bFZwbUhQVXdvekNzMHZWaE5Zc0g0cTBkUzVXSG96YjEwVExzWjZlR1k5bmhXUktFQkFqU009IiwidmVyc2lvbiI6MSwiaWF0IjoxNzcxNDQ1NjQ3LCJpc3MiOiJlcGljcy5nZyJ9.Ul1DbzOgvBtyJLWslHdGpNE1kfnQAKcuVvyD0HKKvdCfkycTP9zIycYtgXHeTqSC",
-    "userNick": "Dodosiek",
-    "dayStart": "4:11",
-    "dayEnd": "19:38",
-    "baseInterval": "30",
-    "randomScale1": "5",
-    "randomScale2": "18"
-  },
-  {
     "userId": "185366",
     "refreshToken": "eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiam1uRlJSMkpCYWpiSlI3dXMyWlRoZz09OjZnbERGb3pNTzRMdHhQVXBIQjNZSmgxeVdvb2tXNnk5bEVEYlNGejFXNGtNY1BPRjQzRzJqWHBFVFZlU0ZWUDlIT1h6bWVGS2RRUnY3eDEzMWFYVzNlSVNDa205YjlkZHc3eTFWMUtCWlVCczVHR25NU1pSNXZZOGE4bFdyR3hqaG5XM2xydGFGSG8xQkpEckxEd2lyNnNpWkNNQnA5NHRWUCtzTFdSSXFNa3Nnd0ZsWnFDZklEcjc2dmJyMmVNSEk0aG8zVnlKYWdXQ0Z6U0grREwyWFE9PSIsInZlcnNpb24iOjEsImlhdCI6MTc3MTQ0NTY1NywiaXNzIjoiZXBpY3MuZ2cifQ.Jr8rVsUxUtv1eRCkhqtkvRwlC7BTCPxZZUA6t4CAWiHXQ-N8yXtbE8qRYitnQve4",
     "userNick": "duxazzz",

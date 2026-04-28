@@ -187,11 +187,11 @@
     <div class="global-config">
       <div class="config-group">
         <span class="config-label">🎰 Spinner ID (all users):</span>
-        <input type="number" class="config-input" id="globalSpinnerId" min="1" value="6898" placeholder="Spinner ID">
+        <input type="number" class="config-input" id="globalSpinnerId" min="1" value="6931" placeholder="Spinner ID">
       </div>
       <div class="config-group">
         <span class="config-label">📦 Pack IDs (comma separated):</span>
-        <input type="text" class="config-input" id="globalPackIds" value="11953, 12053, 12079" placeholder="e.g. 11953, 12053, 12079" style="width: 300px;">
+        <input type="text" class="config-input" id="globalPackIds" value="11953, 12053, 12079, 12121, 12145" placeholder="e.g. 11953, 12053, 12079, 12121, 12145" style="width: 300px;">
       </div>
       <button class="btn btn-primary" id="updateGlobalConfig">Save Global Config</button>
       <span id="saveIndicator" class="save-indicator" style="display: none;">✓ Saved</span>
@@ -281,8 +281,8 @@
         const r = await fetch('/api/spinner-config');
         if (r.ok) {
           const config = await r.json();
-          document.getElementById('globalSpinnerId').value = config.spinnerId || 6898;
-          document.getElementById('globalPackIds').value = config.packIds ? config.packIds.join(', ') : '11953, 12053, 12079';
+          document.getElementById('globalSpinnerId').value = config.spinnerId || 6931;
+          document.getElementById('globalPackIds').value = config.packIds ? config.packIds.join(', ') : '11953, 12053, 12079, 12121, 12145';
         }
       } catch (e) {
         console.error('Failed to fetch global config:', e);

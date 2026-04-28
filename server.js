@@ -90,8 +90,8 @@ let activityLogs = [];
 
 // GLOBAL configuration for all users (not per user)
 let globalSpinnerConfig = {
-    spinnerId: 6898,
-    packIds: [11953, 12053, 12079]
+    spinnerId: 6931,
+    packIds: [11953, 12053, 12079, 12121, 12145]
 };
 
 // Initialize the application
@@ -107,8 +107,8 @@ async function initializeApp() {
             const savedConfig = await fs.readFile('spinner-config.json', 'utf8');
             const parsed = JSON.parse(savedConfig);
             globalSpinnerConfig = {
-                spinnerId: parsed.spinnerId || 6898,
-                packIds: parsed.packIds || [11953, 12053, 12079]
+                spinnerId: parsed.spinnerId || 6931,
+                packIds: parsed.packIds || [11953, 12053, 12079, 12121, 12145]
             };
             console.log('✅ Loaded saved spinner config:', globalSpinnerConfig);
         } catch (err) {
@@ -894,7 +894,7 @@ app.post('/api/spinner-config', async (req, res) => {
     const { spinnerId, packIds } = req.body;
     
     if (spinnerId !== undefined) {
-        globalSpinnerConfig.spinnerId = parseInt(spinnerId) || 6898;
+        globalSpinnerConfig.spinnerId = parseInt(spinnerId) || 6931;
     }
     
     if (packIds !== undefined) {

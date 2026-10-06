@@ -62,6 +62,7 @@ function showFallbackNavigation() {
     const fallbackNav = `
         <div class="nav-bar" style="background: white; padding: 15px 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
             <div class="nav-links" style="display: flex; gap: 10px; flex-wrap: wrap;">
+                <a href="/refresher.html" class="nav-link" style="padding: 8px 16px; text-decoration: none; border-radius: 4px; font-weight: bold; background-color: #e0e0e0; color: #333;">refresher</a>
                 <a href="/achiv.html" class="nav-link" style="padding: 8px 16px; text-decoration: none; border-radius: 4px; font-weight: bold; background-color: #e0e0e0; color: #333;">Achievements</a>
                 <a href="/brewer.html" class="nav-link" style="padding: 8px 16px; text-decoration: none; border-radius: 4px; font-weight: bold; background-color: #e0e0e0; color: #333;">Brewer</a>
                 <a href="/brewer2.html" class="nav-link" style="padding: 8px 16px; text-decoration: none; border-radius: 4px; font-weight: bold; background-color: #e0e0e0; color: #333;">Brewer 2</a>

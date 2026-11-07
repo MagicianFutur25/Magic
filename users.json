@@ -7,7 +7,9 @@
     "dayEnd": "21:59",
     "baseInterval": "31",
     "randomScale1": "1",
-    "randomScale2": "9"
+    "randomScale2": "9",
+    "lister-jitter": "240",
+    "aggression": "-0.5"
   },
   {
     "userId": "16299",
@@ -17,7 +19,21 @@
     "dayEnd": "21:27",
     "baseInterval": "31",
     "randomScale1": "2",
-    "randomScale2": "7"
+    "randomScale2": "7",
+    "lister-jitter": "330",
+    "aggression": "0.2"
+  },
+  {
+    "userId": "68802",
+    "refreshToken": "eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoibFUyWWlLd0lIb3lyRzFPWkNxVS9HQT09OlZ4YVZyU0prQ0YvbmEwOWpXRXpDYW01ZGlEQlB3S3ZHWkF6ZFBjSFB0MHN6UldFT25FdWo1empnM1V1ZVUwUHpoSUN0K0tRY05QTmJLTWNZby8yZEthYVlQM2pRNVRnNTlpWWw4Y28vamFpNUx2UEFVUTYza0FlcVRLcXZBejdXNncrNll6MnJ3QVFhV3ZpR2RlcWN2SUhUd2V5Zm9oTW1UMnhTeW9xNUlzcEFmUC9kQ3RxNUhyZDZhSzdVQjZOT1BZWWs2cVNpUERQSWtVWm1PRjAwMXc9PSIsInZlcnNpb24iOjEsImlhdCI6MTc0OTU4NTg0MiwiaXNzIjoiZXBpY3MuZ2cifQ.RzeKR9UvlplC03miMfybzP6142S0G_aNuk017v83nE0_gE219j9V467MFqCTRA3d",
+    "userNick": "Aselwyn",
+    "dayStart": "7:17",
+    "dayEnd": "23:55",
+    "baseInterval": "31",
+    "randomScale1": "3",
+    "randomScale2": "11",
+    "lister-jitter": "150",
+    "aggression": "0.3"
   },
   {
     "userId": "148201",
@@ -27,7 +43,9 @@
     "dayEnd": "22:47",
     "baseInterval": "31",
     "randomScale1": "1",
-    "randomScale2": "5"
+    "randomScale2": "5",
+    "lister-jitter": "410",
+    "aggression": "0.5"
   },
   {
     "userId": "405749",
@@ -37,7 +55,9 @@
     "dayEnd": "23:29",
     "baseInterval": "31",
     "randomScale1": "2",
-    "randomScale2": "11"
+    "randomScale2": "11",
+    "lister-jitter": "210",
+    "aggression": "0.7"
   },
   {
     "userId": "501469",
@@ -47,6 +67,8 @@
     "dayEnd": "22:36",
     "baseInterval": "31",
     "randomScale1": "2",
-    "randomScale2": "8"
+    "randomScale2": "8",
+    "lister-jitter": "70",
+    "aggression": "-0.7"
   }
 ]
